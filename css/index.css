@@ -1,3 +1,6 @@
+.text {
+  border: 1px solid red;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,10 +171,28 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.main-header {
+  border-bottom: 2px dashed #C0C0C0;
+}
 .main-header .nav-container {
   display: flex;
   max-width: 800px;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 85px;
+}
+.main-header .nav-container .main-nav {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-header .nav-container .main-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  font-family: Roboto, sans serif;
 }
 .footer {
   width: 100%;
