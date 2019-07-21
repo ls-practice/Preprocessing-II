@@ -5,8 +5,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-   
     
     .text-content {
       width: 48%;
@@ -56,6 +54,17 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn{
+        .custom-btn();
+        border:none;
+        
+        &:hover {
+          cursor: pointer;
+          background:navy;
+          color:yellow;
+        }
+      }
     }
   }
 }// home
