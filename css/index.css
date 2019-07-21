@@ -131,7 +131,6 @@ table {
 }
 html {
   font-size: 62.5%;
-  background-color: red;
 }
 html,
 body {
@@ -168,6 +167,11 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.main-header .nav-container {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
 }
 .footer {
   width: 100%;
