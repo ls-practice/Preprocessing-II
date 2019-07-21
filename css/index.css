@@ -183,10 +183,27 @@ img {
   margin: 0 auto;
   height: 85px;
 }
+@media (max-width:500px) {
+  .main-header .nav-container {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width:500px) {
+  .main-header .nav-container h1 {
+    padding-top: 10px;
+  }
+}
 .main-header .nav-container .main-nav {
   width: 45%;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width:500px) {
+  .main-header .nav-container .main-nav {
+    width: 85%;
+    padding: 5px;
+  }
 }
 .main-header .nav-container .main-nav a {
   text-decoration: none;
